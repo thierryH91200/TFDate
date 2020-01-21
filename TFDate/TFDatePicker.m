@@ -557,6 +557,8 @@ static __strong NSString *m_defaultDateFieldPlaceHolder;
 
 - (NSButton *)showPopoverButton
 {
+    NSLog(@"_showPopoverButton");
+
     if (!_showPopoverButton) {
         NSBundle *frameworkBundle = [NSBundle bundleForClass:[self class]];
         
