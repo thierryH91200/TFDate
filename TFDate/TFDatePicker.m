@@ -323,6 +323,8 @@ static __strong NSString *m_defaultDateFieldPlaceHolder;
 
 - (void)drawRect:(NSRect)rect
 {
+    NSLog(@"drawRect");
+
     // do default drawing
     [super drawRect:rect];
     
