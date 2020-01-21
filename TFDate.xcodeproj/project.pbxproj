@@ -18,6 +18,7 @@
 		0314C43C23D6FAAD00C7A76E /* TFDatePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0314C3F323D6D6AD00C7A76E /* TFDatePicker.xib */; };
 		0314C43D23D6FD6900C7A76E /* prompt.png in Resources */ = {isa = PBXBuildFile; fileRef = 0314C3F523D6D6B900C7A76E /* prompt.png */; };
 		0314C43E23D7012600C7A76E /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 0314C3F723D6D6B900C7A76E /* calendar.png */; };
+		0314C43F23D7047500C7A76E /* calendar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0314C3F823D6D6B900C7A76E /* calendar@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -171,6 +172,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0314C43F23D7047500C7A76E /* calendar@2x.png in Resources */,
 				0314C43E23D7012600C7A76E /* calendar.png in Resources */,
 				0314C43D23D6FD6900C7A76E /* prompt.png in Resources */,
 				0314C43C23D6FAAD00C7A76E /* TFDatePicker.xib in Resources */,
