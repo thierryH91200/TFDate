@@ -235,7 +235,7 @@ static __strong NSString *m_defaultDateFieldPlaceHolder;
 {
     // access framework bundle
 	NSBundle *frameworkBundle = [NSBundle bundleForClass:[self class]];
-    self.promptImage = [frameworkBundle imageForResource:@"prompt"];
+    self.promptImage = [frameworkBundle imageForResource:@"calendar"];
     
     // button
 	NSButton *showPopoverButton = self.showPopoverButton;
