@@ -323,8 +323,6 @@ static __strong NSString *m_defaultDateFieldPlaceHolder;
 
 - (void)drawRect:(NSRect)rect
 {
-    NSLog(@"drawRect");
-
     // do default drawing
     [super drawRect:rect];
     
@@ -571,7 +569,7 @@ static __strong NSString *m_defaultDateFieldPlaceHolder;
         _showPopoverButton.imagePosition = NSImageOnly;
         _showPopoverButton.toolTip = NSLocalizedString(@"Show date picker panel", "Datepicker button tool tip");
         
-        _showPopoverButton.image = [frameworkBundle imageForResource:@"calendar"];
+        _showPopoverButton.image = [frameworkBundle imageForResource:@"prompt"];
         NSLog(@"calendar");
 
         [_showPopoverButton.cell setHighlightsBy:NSContentsCellMask];
