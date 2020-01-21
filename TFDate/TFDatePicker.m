@@ -235,7 +235,7 @@ static __strong NSString *m_defaultDateFieldPlaceHolder;
 {
     // access framework bundle
 	NSBundle *frameworkBundle = [NSBundle bundleForClass:[self class]];
-    self.promptImage = [frameworkBundle imageForResource:@"calendar"];
+    self.promptImage = [frameworkBundle imageForResource:@"prompt"];
     
     // button
 	NSButton *showPopoverButton = self.showPopoverButton;
@@ -569,7 +569,7 @@ static __strong NSString *m_defaultDateFieldPlaceHolder;
         _showPopoverButton.imagePosition = NSImageOnly;
         _showPopoverButton.toolTip = NSLocalizedString(@"Show date picker panel", "Datepicker button tool tip");
         
-        _showPopoverButton.image = [frameworkBundle imageForResource:@"prompt"];
+        _showPopoverButton.image = [frameworkBundle imageForResource:@"calendar"];
         NSLog(@"calendar");
 
         [_showPopoverButton.cell setHighlightsBy:NSContentsCellMask];
