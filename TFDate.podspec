@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "TFDate"
   spec.version      = "1.0.0"
-  spec.summary      = "Enhanced Textual NSDatePicker, which has a popover control to selecting date and time using the standard controls.."
+  spec.summary      = "Enhanced Textual NSDatePicker"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,6 +25,8 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
+  Enhanced Textual NSDatePicker,
+  which has a popover control to selecting date and time using the standard controls..
                    DESC
 
   spec.homepage     = "https://github.com/thierryH91200/TFDate"
@@ -32,49 +34,22 @@ Pod::Spec.new do |spec|
 
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  Licensing your code is important. See https://choosealicense.com for more info.
-  #  CocoaPods will detect a license file if there is a named LICENSE*
-  #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
-  #
-
-  spec.license      = "Apache License 2.0"
-  # spec.license      = { :type => "Apache License 2.0", :file => "LICENSE" }
+  # spec.license      = "Apache License 2.0"
+  spec.license      = { :type => "Apache License 2.0", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  Specify the authors of the library, with email addresses. Email addresses
-  #  of the authors are extracted from the SCM log. E.g. $ git log. CocoaPods also
-  #  accepts just a name if you'd rather not provide an email address.
-  #
-  #  Specify a social_media_url where others can refer to, for example a twitter
-  #  profile URL.
-  #
-
   spec.authors            = { "thierryH91200" => "thierry.hentic@gmail.com" }
-  # spec.social_media_url   = "https://twitter.com/thierryH91200"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  If this Pod runs only on iOS or OS X, then specify the platform and
-  #  the deployment target. You can optionally include the target after the platform.
-  #
-
-  # spec.platform     = :osx
-  # spec.platform     = :osx, "10.14"
+  spec.platform     = :osx
+  spec.platform     = :osx, "10.14"
 
   #  When using multiple platforms
-  # spec.osx.deployment_target = "10.7"
+  spec.osx.deployment_target = "10.14"
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  Specify the location from where the source should be retrieved.
-  #  Supports git, hg, bzr, svn and HTTP.
-  #
-
   spec.source       = { :git => "https://github.com/thierryH91200/TFDate.git", :tag => "#{spec.version}" }
-
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -91,30 +66,10 @@ Pod::Spec.new do |spec|
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  A list of resources included with the Pod. These are copied into the
-  #  target bundle with a build phase script. Anything else will be cleaned.
-  #  You can preserve files from being cleaned, please don't preserve
-  #  non-essential files like tests, examples and documentation.
-  #
-
-  # spec.resource  = "icon.png"
+  spec.resource  = "icon.png"
   # spec.resources = "Resources/*.png"
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
-
-
-  # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  Link your library with frameworks, or libraries. Libraries do not include
-  #  the lib prefix of their name.
-  #
-
-  # spec.framework  = "SomeFramework"
-  # spec.frameworks = "SomeFramework", "AnotherFramework"
-
-  # spec.library   = "iconv"
-  # spec.libraries = "iconv", "xml2"
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
