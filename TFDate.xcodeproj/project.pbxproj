@@ -51,6 +51,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03024BF523F15BB7001EB026 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0314C3F523D6D6B900C7A76E /* prompt.png */,
+				0314C3F823D6D6B900C7A76E /* calendar@2x.png */,
+				0314C3F723D6D6B900C7A76E /* calendar.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		0314C3D423D6D68700C7A76E = {
 			isa = PBXGroup;
 			children = (
@@ -70,6 +80,7 @@
 		0314C3E023D6D68700C7A76E /* TFDate */ = {
 			isa = PBXGroup;
 			children = (
+				03024BF523F15BB7001EB026 /* Resources */,
 				0314C3E123D6D68700C7A76E /* TFDate.h */,
 				0314C3E923D6D69A00C7A76E /* Assets.xcassets */,
 				0314C3EC23D6D6A200C7A76E /* TFDatePicker.h */,
@@ -88,12 +99,9 @@
 		0314C3FB23D6D6D400C7A76E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				0314C3F723D6D6B900C7A76E /* calendar.png */,
 				0314C3F423D6D6B900C7A76E /* InfoPlist.strings */,
-				0314C3F523D6D6B900C7A76E /* prompt.png */,
 				0314C3F623D6D6B900C7A76E /* TFDatePicker-Info.plist */,
 				0314C3F923D6D6B900C7A76E /* TFDatePicker-Prefix.pch */,
-				0314C3F823D6D6B900C7A76E /* calendar@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";

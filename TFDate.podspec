@@ -9,21 +9,11 @@
 Pod::Spec.new do |spec|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  These will help people to find your library, and whilst it
-  #  can feel like a chore to fill in it's definitely to your advantage. The
-  #  summary should be tweet-length, and the description more in depth.
-  #
 
   spec.name         = "TFDate"
   spec.version      = "1.0.0"
   spec.summary      = "Enhanced Textual NSDatePicker"
 
-  # This description is used to generate tags and improve search results.
-  #   * Think: What does it do? Why did you write it? What is the focus?
-  #   * Try to keep it short, snappy and to the point.
-  #   * Write the description between the DESC delimiters below.
-  #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
   Enhanced Textual NSDatePicker,
   which has a popover control to selecting date and time using the standard controls..
@@ -33,20 +23,11 @@ Pod::Spec.new do |spec|
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
-  # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  # spec.license      = "Apache License 2.0"
   spec.license      = { :type => "Apache License 2.0", :file => "LICENSE" }
+  spec.authors            = "thierryH91200"
 
-
-  # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  spec.authors            = { "thierryH91200" => "thierry.hentic@gmail.com" }
-
-  # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   spec.platform     = :osx
   spec.platform     = :osx, "10.14"
-
-  #  When using multiple platforms
-  spec.osx.deployment_target = "10.14"
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   spec.source       = { :git => "https://github.com/thierryH91200/TFDate.git", :tag => "#{spec.version}" }
@@ -59,15 +40,15 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
+  spec.source_files  = "Classes", "TFDate/**/*.{h,m}"
   spec.exclude_files = "Classes/Exclude"
 
-  # spec.public_header_files = "Classes/**/*.h"
+  # spec.public_header_files = "TFDate/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  spec.resource  = "icon.png"
-  # spec.resources = "Resources/*.png"
+  # spec.resource  = "icon.png"
+  spec.resources = "Resources/*.png"
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
