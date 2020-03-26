@@ -15,9 +15,9 @@
 		0314C43723D6F65F00C7A76E /* TFDatePickerCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0314C3EA23D6D6A200C7A76E /* TFDatePickerCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0314C43823D6F66D00C7A76E /* TFDatePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 0314C3EC23D6D6A200C7A76E /* TFDatePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0314C43923D6F67500C7A76E /* TFDatePickerPopoverController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0314C3EF23D6D6A200C7A76E /* TFDatePickerPopoverController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0314C43C23D6FAAD00C7A76E /* TFDatePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0314C3F323D6D6AD00C7A76E /* TFDatePicker.xib */; };
 		0314C43D23D6FD6900C7A76E /* prompt.png in Resources */ = {isa = PBXBuildFile; fileRef = 0314C3F523D6D6B900C7A76E /* prompt.png */; };
 		0314C43E23D7012600C7A76E /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 0314C3F723D6D6B900C7A76E /* calendar.png */; };
+		039BAC1E242C9B1300C375BB /* TFDatePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 039BAC20242C9B1300C375BB /* TFDatePicker.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,13 +31,17 @@
 		0314C3ED23D6D6A200C7A76E /* TFDatePickerCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFDatePickerCell.m; sourceTree = "<group>"; };
 		0314C3EE23D6D6A200C7A76E /* TFDatePicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFDatePicker.m; sourceTree = "<group>"; };
 		0314C3EF23D6D6A200C7A76E /* TFDatePickerPopoverController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFDatePickerPopoverController.h; sourceTree = "<group>"; };
-		0314C3F323D6D6AD00C7A76E /* TFDatePicker.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TFDatePicker.xib; sourceTree = "<group>"; };
 		0314C3F423D6D6B900C7A76E /* InfoPlist.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
 		0314C3F523D6D6B900C7A76E /* prompt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prompt.png; sourceTree = "<group>"; };
 		0314C3F623D6D6B900C7A76E /* TFDatePicker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TFDatePicker-Info.plist"; sourceTree = "<group>"; };
 		0314C3F723D6D6B900C7A76E /* calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendar.png; sourceTree = "<group>"; };
 		0314C3F823D6D6B900C7A76E /* calendar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calendar@2x.png"; sourceTree = "<group>"; };
 		0314C3F923D6D6B900C7A76E /* TFDatePicker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TFDatePicker-Prefix.pch"; sourceTree = "<group>"; };
+		039BAC1F242C9B1300C375BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/TFDatePicker.xib; sourceTree = "<group>"; };
+		039BAC22242C9B1900C375BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/TFDatePicker.strings; sourceTree = "<group>"; };
+		039BAC24242C9B1900C375BB /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/TFDatePicker.strings; sourceTree = "<group>"; };
+		039BAC26242C9B1A00C375BB /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/TFDatePicker.strings; sourceTree = "<group>"; };
+		039BAC28242C9B1B00C375BB /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/TFDatePicker.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +93,7 @@
 				0314C3ED23D6D6A200C7A76E /* TFDatePickerCell.m */,
 				0314C3EF23D6D6A200C7A76E /* TFDatePickerPopoverController.h */,
 				0314C3EB23D6D6A200C7A76E /* TFDatePickerPopoverController.m */,
-				0314C3F323D6D6AD00C7A76E /* TFDatePicker.xib */,
+				039BAC20242C9B1300C375BB /* TFDatePicker.xib */,
 				0314C3E223D6D68700C7A76E /* Info.plist */,
 				0314C3FB23D6D6D400C7A76E /* Supporting Files */,
 			);
@@ -163,6 +167,9 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
+				it,
+				es,
 			);
 			mainGroup = 0314C3D423D6D68700C7A76E;
 			productRefGroup = 0314C3DF23D6D68700C7A76E /* Products */;
@@ -181,7 +188,7 @@
 			files = (
 				0314C43E23D7012600C7A76E /* calendar.png in Resources */,
 				0314C43D23D6FD6900C7A76E /* prompt.png in Resources */,
-				0314C43C23D6FAAD00C7A76E /* TFDatePicker.xib in Resources */,
+				039BAC1E242C9B1300C375BB /* TFDatePicker.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,6 +206,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		039BAC20242C9B1300C375BB /* TFDatePicker.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				039BAC1F242C9B1300C375BB /* Base */,
+				039BAC22242C9B1900C375BB /* en */,
+				039BAC24242C9B1900C375BB /* fr */,
+				039BAC26242C9B1A00C375BB /* it */,
+				039BAC28242C9B1B00C375BB /* es */,
+			);
+			name = TFDatePicker.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		0314C3E423D6D68700C7A76E /* Debug */ = {
