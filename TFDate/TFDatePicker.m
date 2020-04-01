@@ -567,7 +567,7 @@ static __strong NSString *m_defaultDateFieldPlaceHolder;
         _showPopoverButton.bezelStyle = NSBezelStyleInline;
         _showPopoverButton.bordered = NO;
         _showPopoverButton.imagePosition = NSImageOnly;
-        _showPopoverButton.toolTip = NSLocalizedString(@"Show date picker panel", "Datepicker button tool tip");
+//        _showPopoverButton.toolTip = NSLocalizedString(@"Show date picker panel", "Datepicker button tool tip");
         
         _showPopoverButton.image = [frameworkBundle imageForResource:@"calendar"];
 //        NSLog(@"calendar");
