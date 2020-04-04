@@ -18,6 +18,7 @@
 		0314C43D23D6FD6900C7A76E /* prompt.png in Resources */ = {isa = PBXBuildFile; fileRef = 0314C3F523D6D6B900C7A76E /* prompt.png */; };
 		0314C43E23D7012600C7A76E /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 0314C3F723D6D6B900C7A76E /* calendar.png */; };
 		039BAC1E242C9B1300C375BB /* TFDatePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 039BAC20242C9B1300C375BB /* TFDatePicker.xib */; };
+		03B3B6622435E8500056A175 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03B3B6642435E8500056A175 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,10 @@
 		039BAC24242C9B1900C375BB /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/TFDatePicker.strings; sourceTree = "<group>"; };
 		039BAC26242C9B1A00C375BB /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/TFDatePicker.strings; sourceTree = "<group>"; };
 		039BAC28242C9B1B00C375BB /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/TFDatePicker.strings; sourceTree = "<group>"; };
+		03B3B6632435E8500056A175 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		03B3B6652435E8560056A175 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		03B3B6662435E8590056A175 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		03B3B6672435E85A0056A175 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +89,7 @@
 		0314C3E023D6D68700C7A76E /* TFDate */ = {
 			isa = PBXGroup;
 			children = (
+				03B3B6642435E8500056A175 /* Localizable.strings */,
 				03024BF523F15BB7001EB026 /* Resources */,
 				0314C3E123D6D68700C7A76E /* TFDate.h */,
 				0314C3E923D6D69A00C7A76E /* Assets.xcassets */,
@@ -187,6 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0314C43E23D7012600C7A76E /* calendar.png in Resources */,
+				03B3B6622435E8500056A175 /* Localizable.strings in Resources */,
 				0314C43D23D6FD6900C7A76E /* prompt.png in Resources */,
 				039BAC1E242C9B1300C375BB /* TFDatePicker.xib in Resources */,
 			);
@@ -218,6 +225,17 @@
 				039BAC28242C9B1B00C375BB /* es */,
 			);
 			name = TFDatePicker.xib;
+			sourceTree = "<group>";
+		};
+		03B3B6642435E8500056A175 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03B3B6632435E8500056A175 /* en */,
+				03B3B6652435E8560056A175 /* es */,
+				03B3B6662435E8590056A175 /* it */,
+				03B3B6672435E85A0056A175 /* fr */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
