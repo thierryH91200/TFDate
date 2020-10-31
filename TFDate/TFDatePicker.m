@@ -247,7 +247,7 @@ static __strong NSString *m_defaultDateFieldPlaceHolder;
     // button constraints
     // TODO: this only works when unarchiving. Refactor so that these constraints get added and removed when datePickerStyle is set.
 	NSDictionary *views = NSDictionaryOfVariableBindings(showPopoverButton);
-    if ([self.cell datePickerStyle] == NSTextFieldAndStepperDatePickerStyle) {
+    if ([self.cell datePickerStyle] == NSDatePickerStyleTextFieldAndStepper) {
         self.imageOffsetX = 5 + 16 + 20;
         [self addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:[showPopoverButton(16)]-(20)-|" options:0 metrics:nil views:views]];
         [self addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|-(3)-[showPopoverButton(16)]" options:0 metrics:nil views:views]];
@@ -755,7 +755,7 @@ static __strong NSString *m_defaultDateFieldPlaceHolder;
         id keyValue = [object valueForKeyPath:keyPath];
         
         // keyValue may be a no selection marker on occasion
-        if ((!keyValue || keyValue == NSNoSelectionMarker) && self.allowEmptyDate) {
+        if ((!keyValue || keyValue == NSBindingSelectionMarker.noSelectionMarker) && self.allowEmptyDate) {
             self.empty = YES;
         }
         else {
