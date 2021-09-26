@@ -38,6 +38,11 @@
 		0314C3F723D6D6B900C7A76E /* calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendar.png; sourceTree = "<group>"; };
 		0314C3F823D6D6B900C7A76E /* calendar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calendar@2x.png"; sourceTree = "<group>"; };
 		0314C3F923D6D6B900C7A76E /* TFDatePicker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TFDatePicker-Prefix.pch"; sourceTree = "<group>"; };
+		0387922F2700B8A600203053 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/TFDatePicker.strings; sourceTree = "<group>"; };
+		038792312700B8B600203053 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/TFDatePicker.strings; sourceTree = "<group>"; };
+		0387923A2700D6F300203053 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/TFDatePicker.strings; sourceTree = "<group>"; };
+		0387923C2700D6F400203053 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		0387923E2700D71600203053 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/TFDatePicker.strings; sourceTree = "<group>"; };
 		039BAC1F242C9B1300C375BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/TFDatePicker.xib; sourceTree = "<group>"; };
 		039BAC22242C9B1900C375BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/TFDatePicker.strings; sourceTree = "<group>"; };
 		039BAC24242C9B1900C375BB /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/TFDatePicker.strings; sourceTree = "<group>"; };
@@ -176,6 +181,7 @@
 				fr,
 				it,
 				es,
+				de,
 			);
 			mainGroup = 0314C3D423D6D68700C7A76E;
 			productRefGroup = 0314C3DF23D6D68700C7A76E /* Products */;
@@ -223,6 +229,10 @@
 				039BAC24242C9B1900C375BB /* fr */,
 				039BAC26242C9B1A00C375BB /* it */,
 				039BAC28242C9B1B00C375BB /* es */,
+				0387922F2700B8A600203053 /* fr */,
+				038792312700B8B600203053 /* es */,
+				0387923A2700D6F300203053 /* de */,
+				0387923E2700D71600203053 /* it */,
 			);
 			name = TFDatePicker.xib;
 			sourceTree = "<group>";
@@ -234,6 +244,7 @@
 				03B3B6652435E8560056A175 /* es */,
 				03B3B6662435E8590056A175 /* it */,
 				03B3B6672435E85A0056A175 /* fr */,
+				0387923C2700D6F400203053 /* de */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
